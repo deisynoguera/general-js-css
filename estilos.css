@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  gap: 1em;
+
+  background-color: #ffeaa7;
+  width: 10em;
+  height: 10em;
+  border-radius: 0.5em;
+}
+
+h1 {
+  color: #2d3436;
+  font-family: sans-serif;
+  margin: 0;
+  user-select: none;
+}
+
+p {
+  color: #2d3436;
+  font-family: sans-serif;
+  margin: 0;
+  user-select: none;
+}
+
+.show6row {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+  line-clamp: 6;
+  overflow: hidden;
+}
